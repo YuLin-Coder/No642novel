@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding: 0; 
+}
+body{
+    background:#e5e6d0;
+}
+.header{
+	width:100%;
+	background-color: #3385FF;
+	height:4%;
+	padding:20px 0px;
+	
+}
+h2{
+	color:white;
+	text-align:center;
+}
+.wel{
+	color:#5D6C7B;
+	font-size:12px;
+}
+.context{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.context tr td{
+	font-weight:bold;
+}
+
+
+.submit {
+	width: 100px;
+	height: 30px;
+	position: relative;
+	margin: 10px 15px;
+	border-radius: 8px;
+	background-color:#3385FF;
+}
+.inp{
+	padding-left: 500px;
+}
+.submit:hover {
+	background-color:#5D6C7B;
+	font-weight:bold;
+	cursor: pointer;
+}
+.scl{
+	font-weight:bold;
+	font-size:20px;
+}
